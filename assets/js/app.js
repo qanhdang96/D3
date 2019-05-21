@@ -98,23 +98,23 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
   let Ylabel = "";
 
   if (chosenXAxis === "poverty") {
-    var Xlabel = "Poverty(%):";
+     Xlabel = "Poverty(%):";
   }
   if (chosenXAxis === "age") {
-    var Xlabel = "Age(Median):";
+     Xlabel = "Age(Median):"
   }
   if (chosenXAxis === "income"){
-    var Xlabel = "Household Income (Median):";
+     Xlabel = "Household Income (Median):"
   }
 
   if (chosenYAxis === "healthcare") {
-    var Ylabel= "Healthcare(%):";
+     Ylabel= "Healthcare(%):"
   }
   if (chosenYAxis === "smokes") {
-    var Ylabel = "Smokes(%):";
+     Ylabel = "Smokes(%):"
   }
   if (chosenYAxis === "obesity") {
-    var Ylabel = "Obesity:";
+     Ylabel = "Obesity:"
   }
 
 
