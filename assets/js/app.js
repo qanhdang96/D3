@@ -85,7 +85,7 @@ function renderLabels(abbrGroup, newXScale, chosenXAxis, newYScale, chosenYAxis)
    
     abbrGroup.transition()
       .duration(1000)
-      .attr("x", d => newXScale(d[chosenXAxis]));
+      .attr("x", d => newXScale(d[chosenXAxis]))
       .attr("y", d => newYScale(d[chosenYAxis]) + 5);
   
     return abbrGroup;
